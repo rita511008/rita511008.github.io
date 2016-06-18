@@ -4,22 +4,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     
-
 }
-boby{
+
+boby {
     background-color: #ffffcc;
 }
+
 
 /* ROW 基本設定 */
 
 .row:after {
     content: "";
     clear: both;
-    display: block;  
-    background-color:aqua;
+    display: block;
+    background-color: aqua;
     border: 1px solid #444;
-
 }
 
 
@@ -42,7 +41,6 @@ boby{
     .col-sm-6 {
         width: calc(100% * 6/12);
     }
-    
     .col-sm-8 {
         width: calc(100% * 8/12);
     }
@@ -52,26 +50,26 @@ boby{
 }
 
 #r1 div {
-
-  text-align: center;
-}
-
-#r2 div{
     text-align: center;
 }
- 
 
-#r3 div{
+#r2 div {
     text-align: center;
 }
- 
+
+#r3 div {
+    text-align: center;
+}
+
 img {
     width: 100%;
-  //  height: 250px;
+    //  height: 250px;
 }
 
 header {
     background-color: #ffcccc;
-    color:#054832;
-    height:100px;  
+    color: #054832;
+    height: 100px;
 }
+
+h1 {}
