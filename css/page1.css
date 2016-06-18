@@ -8,6 +8,7 @@ head {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 p {
@@ -29,9 +30,17 @@ body {
 marquee {
     color: #30bcc7;
     font-size: 50px;
-    background-color: rgba(255, 196, 0, 0.45);
+    background-color:rgba(255, 196, 0, 0.45);
+   
 }
 
 a {
     background-color: #ebff00;
 }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
