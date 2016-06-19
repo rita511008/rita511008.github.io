@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(18, 25, 203, 0.62);
+}
+
+h1 {
+    color: #f8ae52;
+    font-size: 100px;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+a:active {
+    color: darkorange;
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,76 @@
+/* 基本設定 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+boby {
+    background-color: #ffffcc;
+}
+
+
+/* ROW 基本設定 */
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+    background-color: aqua;
+    border: 1px solid #444;
+}
+
+
+/* col 基本設定 */
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 5px;
+    border: 1px solid #444;
+}
+
+@media screen and (min-width:350px) {
+    .col-sm-1 {
+        width: calc(100% * 1/12);
+    }
+    .col-sm-4 {
+        width: calc(100% * 4/12);
+    }
+    .col-sm-6 {
+        width: calc(100% * 6/12);
+    }
+    .col-sm-8 {
+        width: calc(100% * 8/12);
+    }
+    .col-sm-12 {
+        width: calc(100% * 12/12);
+    }
+}
+
+#r1 div {
+    text-align: center;
+}
+
+#r2 div {
+    text-align: center;
+}
+
+#r3 div {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    //  height: 250px;
+}
+
+header {
+    background-color: #ffcccc;
+    color: #054832;
+    height: 100px;
+}
+
+h1 {}
